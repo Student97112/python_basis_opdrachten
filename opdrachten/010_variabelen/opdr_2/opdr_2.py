@@ -4,6 +4,15 @@
 
 # Hier komt je code...
 
-my_tuple = ...
+# Gegeven waarden
+value1 = 11
+value2 = "Oh een tuple"
+value3 = 13.5
+value4 = 8009
 
-print()
+# Tuple maken
+my_tuple = (value1, value2, value3, value4)
+
+# Print de tuple
+print(my_tuple)
+
