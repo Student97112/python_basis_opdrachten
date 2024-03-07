@@ -4,6 +4,19 @@
 
 # Hier komt je code...
 
-my_dict = ...
+# Gegeven namen en waarden
+naam = "Willem"
+achternaam = "van der Broek"
+leeftijd = 23
+favoriete_kleur = "blauw"
 
-print()
+# Dictionary maken
+my_dict = {
+    "naam": naam,
+    "achternaam": achternaam,
+    "leeftijd": leeftijd,
+    "favoriete kleur": favoriete_kleur
+}
+
+# Print de dictionary
+print(my_dict)
