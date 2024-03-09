@@ -6,8 +6,10 @@
 
 # Hier start de for-loop
 
-my_list = [43948, 878768, 38768, 87555, 765765]
+# Lijst met de gegeven getallen
+getallen = [43948, 878768, 38768, 87555, 765765]
 
-# for...:
-#   if...:
-#       print()
+# Gebruik een for-loop en een if-statement om de getallen die deelbaar zijn door 3 af te drukken
+for num in getallen:
+    if num % 3 == 0:
+        print(num)
